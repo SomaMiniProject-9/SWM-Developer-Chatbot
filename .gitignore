@@ -104,8 +104,6 @@ dist
 .tern-port
 goorm.manifest
 
-# config files
-.configs/
-
-# allow example
-*!.example!
+# config files except .example
+configs/*.js
+configs/**/*.js

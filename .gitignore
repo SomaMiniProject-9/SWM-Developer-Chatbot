@@ -105,5 +105,4 @@ dist
 goorm.manifest
 
 # config files except .example
-configs/*.js
 configs/**/*.js

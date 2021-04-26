@@ -8,9 +8,6 @@ const meme = require("./meme");
 const devEvent = require("./devEvent");
 const newTech = require("./newTech");
 
-// 모두에게 메세지 보내기
-router.use("/", main.sendMessage);
-
 // Use this URL to call the modal block configuration when the button block (action block) is pressed in the message.
 router.use("/request", (req, res, next) => {
   switch (req.body.value) {
@@ -36,5 +33,8 @@ router.use("/callback", (req, res, next) => {
       next();
   }
 });
+
+// 모두에게 메세지 보내기
+router.use("/", main.sendMessage);
 
 module.exports = router;

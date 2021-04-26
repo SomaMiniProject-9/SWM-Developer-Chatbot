@@ -54,6 +54,7 @@ const sendMessage = async (req, res, next) => {
           {
             type: "button",
             action_type: "submit_action",
+            action_name: "meme",
             value: "meme",
             text: "😂개발 관련 짤방😂",
             style: "default",

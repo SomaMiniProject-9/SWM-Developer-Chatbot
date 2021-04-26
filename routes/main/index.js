@@ -29,7 +29,7 @@ const sendMessage = async (req, res, next) => {
           {
             type: "text",
             text:
-              "✨안녕하세요~ 😊👋<br>9팀 에어팟 구조대 입니다! 🚒 🚑<br>저희는 이번 미니 프로젝트의✨<br>🏆1등 상품인 에어팟을 받기 위해<br>팀명을 에어팟 구조대로 지었습니다!<br><br>저희 챗 봇은 개발과 관련된 행사와<br>최신 개발 소식들을 안내해주는<br>행사 알림 봇 입니다!💻<br><br>알고 싶은 정보를 클릭해주세요!<br>                  👇👇👇👇👇",
+              "✨안녕하세요~ 😊👋\n9팀 에어팟 구조대 입니다! 🚒 🚑\n저희는 이번 미니 프로젝트의✨\n🏆1등 상품인 에어팟을 받기 위해\n팀명을 에어팟 구조대로 지었습니다!\n\n저희 챗 봇은 개발과 관련된 행사와\n최신 개발 소식들을 안내해주는\n행사 알림 봇 입니다!💻\n\n알고 싶은 정보를 클릭해주세요!\n                  👇👇👇👇👇",
             markdown: true,
           },
           {
@@ -38,6 +38,7 @@ const sendMessage = async (req, res, next) => {
           {
             type: "button",
             action_type: "submit_action",
+            action_name: "dev_event",
             value: "dev_event",
             text: "🎉개발 행사 정보🎊",
             style: "default",
@@ -45,6 +46,7 @@ const sendMessage = async (req, res, next) => {
           {
             type: "button",
             action_type: "submit_action",
+            action_name: "new_tech",
             value: "new_tech",
             text: "💻최신 개발 기술 소식📰",
             style: "default",

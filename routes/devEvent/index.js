@@ -21,7 +21,7 @@ const sendMessage = async (req, res, next) => {
       {
         type: "text",
         text:
-          "저희는 Festa와 용감한 친구들의<br>행사 정보를 안내해드리고 있습니다!<br>",
+          "저희는 Festa와 용감한 친구들의\n행사 정보를 안내해드리고 있습니다!\n",
         markdown: true,
       },
       {

@@ -14,10 +14,10 @@
 저희팀의 챗봇이 여러분에게 도움이 되었다면, **9팀에게 투표해주시면 감사하겠습니다** :)
 
 ## 🔗 기술 스택
-#### [Kakao Work](https://www.kakaowork.com/)
-#### [Giphy API](https://developers.giphy.com/)
-#### [구름 IDE](https://ide.goorm.io/)
-#### [NodeJs](https://nodejs.org/ko/)
+- #### [Kakao Work](https://www.kakaowork.com/)
+- #### [Giphy API](https://developers.giphy.com/)
+- #### [구름 IDE](https://ide.goorm.io/)
+- #### [NodeJs](https://nodejs.org/ko/)
 
 ## 📚 주요 기능
 

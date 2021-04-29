@@ -29,6 +29,7 @@
 ### 2. 개발과 관련된 최신 뉴스 안내 - [Naver D2](https://d2.naver.com/home), [Kakao Tech](https://tech.kakao.com/)
 <p align="center">
 <img width="300px" src="https://user-images.githubusercontent.com/60457112/116594408-230c6680-a95d-11eb-9b16-ef7d118662eb.jpg" title="제목" />
+<img width="300px" src="https://user-images.githubusercontent.com/60457112/116594412-230c6680-a95d-11eb-971e-d5653bc9d407.jpg" title="제목" />
 </p>
 
 ### 3. 개발에 지친 당신을 위한 재미있는 짤방 제공 - [Giphy API](https://developers.giphy.com/)

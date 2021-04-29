@@ -3,7 +3,7 @@
 > SWM x KakaoWork Chatbot Project  
 
 <p align="center">
-<img width="250px" src="https://i.imgur.com/wXz2Zox.jpg" title="제목" />
+<img width="300px" src="https://user-images.githubusercontent.com/60457112/116594401-2142a300-a95d-11eb-9539-d18719f0c38a.jpg" title="제목" />
 </p>
 
 ## 🖥 팀 소개
@@ -12,12 +12,20 @@
 
 ## 📚 주요 기능
 
+### 1. 개발과 관련된 분야별 행사 정보 안내 (Front-end, Back-end, Game) - [Festa](https://festa.io/), [용감한 친구들](https://github.com/brave-people/Dev-Event)
+<p align="center">
+<img width="300px" src="https://user-images.githubusercontent.com/60457112/116594413-23a4fd00-a95d-11eb-9cad-91728d754f34.jpg" title="제목" />
+</p>
 
-### 1. 개발과 관련된 분야별 행사 정보 안내 (Front-end, Back-end, Game)<br> from. [Festa](https://festa.io/), [용감한 친구들](https://github.com/brave-people/Dev-Event)
-
-### 2. 개발과 관련된 최신 뉴스 안내 <br>from. [Naver D2](https://d2.naver.com/home), [Kakao Tech](https://tech.kakao.com/)
+### 2. 개발과 관련된 최신 뉴스 안내 - [Naver D2](https://d2.naver.com/home), [Kakao Tech](https://tech.kakao.com/)
+<p align="center">
+<img width="300px" src="https://user-images.githubusercontent.com/60457112/116594408-230c6680-a95d-11eb-9b16-ef7d118662eb.jpg" title="제목" />
+</p>
 
 ### 3. 개발에 지친 당신을 위한 재미있는 짤방 제공
+<p align="center">
+<img width="300px" src="https://user-images.githubusercontent.com/60457112/116594405-2273d000-a95d-11eb-918b-7c07280b76c6.jpg" title="제목" />
+</p>
 
 ## 🗂 Directory
 ```

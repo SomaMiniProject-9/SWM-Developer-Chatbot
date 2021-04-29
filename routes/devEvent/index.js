@@ -21,7 +21,7 @@ const sendMessage = async (req, res, next) => {
       {
         type: "text",
         text:
-          "저희는 Festa와 용감한 친구들에서\n행사 정보를 안내해드리고 있습니다!\n",
+          "저희는 *Festa*와 *용감한 친구들*에서\n행사 정보를 안내해드리고 있습니다!\n",
         markdown: true,
       },
       {
@@ -44,7 +44,7 @@ const sendMessage = async (req, res, next) => {
       },
       {
         type: "text",
-        text: "      원하는 분야를 선택 해주세요!",
+        text: "        원하는 분야를 선택 해주세요!",
         markdown: true,
       },
       {
@@ -71,6 +71,14 @@ const sendMessage = async (req, res, next) => {
         text: "🎮 Game 🎲",
         style: "default",
       },
+	  {
+			type: "button",
+			text: "메인으로 이동",
+			style: "primary",
+			action_type: "submit_action",
+			action_name: "main",
+			value: "main",
+	  },
     ],
   });
 

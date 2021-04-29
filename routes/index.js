@@ -23,6 +23,9 @@ router.use("/request", (req, res, next) => {
 // Use this URL to send information, which the user entered or selected in the modal screen sent from the request URL, to the POST request.
 router.use("/callback", (req, res, next) => {
   switch (req.body.value) {
+    case "main":
+	  main.sendMessage(req, res, next);
+      break;  
     case "meme":
       meme.sendMessage(req, res, next);
       break;

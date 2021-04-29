@@ -55,7 +55,7 @@ const sendMessage = async (req, res, next) => {
 		{
 		  type: "button",
 		  text: "예약하기",
-		  style: "primary",
+		  style: "default",
 		  action_type: "open_system_browser",
 		  value: GameData[0].link
 		},
@@ -77,7 +77,7 @@ const sendMessage = async (req, res, next) => {
 		{
 		  type: "button",
 		  text: "예약하기",
-		  style: "primary",
+		  style: "default",
 		  action_type: "open_system_browser",
 		  value: GameData[1].link
 		},
@@ -99,13 +99,21 @@ const sendMessage = async (req, res, next) => {
 		{
 		  type: "button",
 		  text: "예약하기",
-		  style: "primary",
+		  style: "default",
 		  action_type: "open_system_browser",
 		  value: GameData[2].link
 		},
 		{
 		  type: "divider"
 		},
+		{
+			type: "button",
+			text: "메인으로 이동",
+			style: "primary",
+			action_type: "submit_action",
+			action_name: "main",
+			value: "main",
+	  	},
 	],
   });
 

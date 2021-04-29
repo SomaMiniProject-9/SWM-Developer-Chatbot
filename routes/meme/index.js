@@ -35,7 +35,7 @@ const sendMessage = async (req, res, next) => {
 		},
 		{
 		  type: "text",
-		  text: "개발에 지치셨나요?\n짤방 보시면서 소소한 힐링과 재미를 느껴보세요!",
+		  text: "*개발*에 지치셨나요?\n짤방 보시면서 *소소한 힐링과 재미*를 느껴보세요!",
 		  markdown: true
 		},
 		{
@@ -46,12 +46,23 @@ const sendMessage = async (req, res, next) => {
 		  url: GIPHY_URL,
 		},
 		{
+		  type: "divider"
+		},
+		{
 			type: "button",
 			text: "짤방 더 보러가기",
 			style: "danger",
 			action_type: "submit_action",
 			action_name: "meme",
 			value: "meme",
+		},
+		{
+			type: "button",
+			text: "메인으로 이동",
+			style: "primary",
+			action_type: "submit_action",
+			action_name: "main",
+			value: "main",
 		},
 	  ],
     });

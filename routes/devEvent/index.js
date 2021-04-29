@@ -21,7 +21,7 @@ const sendMessage = async (req, res, next) => {
       {
         type: "text",
         text:
-          "저희는 Festa와 용감한 친구들의\n행사 정보를 안내해드리고 있습니다!\n",
+          "저희는 Festa와 용감한 친구들에서\n행사 정보를 안내해드리고 있습니다!\n",
         markdown: true,
       },
       {
@@ -49,16 +49,25 @@ const sendMessage = async (req, res, next) => {
       },
       {
         type: "button",
+		action_type: "submit_action",
+		action_name: "front_end",
+        value: "front_end",
         text: "🎨 Front end 🎈",
         style: "default",
       },
       {
         type: "button",
+		action_type: "submit_action",
+		action_name: "back_end",
+        value: "back_end",
         text: "💻 Back end 🌐",
         style: "default",
       },
       {
         type: "button",
+		action_type: "submit_action",
+		action_name: "game",
+        value: "game",
         text: "🎮 Game 🎲",
         style: "default",
       },

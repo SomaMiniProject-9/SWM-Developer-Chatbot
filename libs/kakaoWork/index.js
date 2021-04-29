@@ -10,9 +10,24 @@ const kakaoInstance = axios.create({
   },
 });
 
-const getUserList = async () => {
-  const res = await kakaoInstance.get("/v1/users.list");
-  return res.data.users;
+const getUserList = async () => {  
+  let users = [];
+  
+  // limit만큼 유저를 가져오고 cursor를 갱신합니다.
+  const res = await kakaoInstance.get("/v1/users.list?limit=100");
+  users.push(...res.data.users);
+  let cursor = res.data.cursor;
+  
+  // 더 가져올 유저가 없을 때(cursor==null)까지 가져옵니다.
+  while (cursor) {
+    const appendUserURL = "/v1/users.list?cursor=" + cursor;
+    const res = await kakaoInstance.get(appendUserURL);
+    users.push(...res.data.users);
+    cursor = res.data.cursor;
+    console.log('get another users');
+  }
+  
+  return users;
 };
 
 const openConversations = async ({ userId }) => {

@@ -7,6 +7,10 @@ const main = require("./main");
 const meme = require("./meme");
 const devEvent = require("./devEvent");
 const newTech = require("./newTech");
+const frontEnd = require("./devEvent/frontEnd");
+const backEnd = require("./devEvent/backEnd");
+const game = require("./devEvent/game");
+
 
 // Use this URL to call the modal block configuration when the button block (action block) is pressed in the message.
 router.use("/request", (req, res, next) => {
@@ -27,6 +31,15 @@ router.use("/callback", (req, res, next) => {
       break;
     case "new_tech":
       newTech.sendMessage(req, res, next);
+      break;
+    case "front_end":
+      frontEnd.sendMessage(req, res, next);
+      break;
+    case "back_end":
+      backEnd.sendMessage(req, res, next);
+      break;
+    case "game":
+      game.sendMessage(req, res, next);
       break;
 
     default:

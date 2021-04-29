@@ -7,8 +7,17 @@
 </p>
 
 ## 🖥 팀 소개
-저희팀은 이번 미니 프로젝트의 1등 상품인 에어팟을 받기 위해 팀명을 **에어팟 구조대**로 지었습니다!
 저희 챗봇은 **개발과 관련된 행사와 최신 개발 소식, 개발 관련 짤방**들의 정보를 제공해주는 **행사 알림 챗봇** 입니다
+
+팀명은 이번 미니 프로젝트의 1등 상품인 에어팟을 받기 위해 팀명을 **에어팟 구조대**로 지었습니다!
+
+저희팀의 챗봇이 여러분에게 도움이 되었다면, **9팀에게 투표해주시면 감사하겠습니다** :)
+
+## 🔗 기술 스택
+#### [Kakao Work](https://www.kakaowork.com/)
+#### [Giphy API](https://developers.giphy.com/)
+#### [구름 IDE](https://ide.goorm.io/)
+#### [NodeJs](https://nodejs.org/ko/)
 
 ## 📚 주요 기능
 
@@ -22,7 +31,7 @@
 <img width="300px" src="https://user-images.githubusercontent.com/60457112/116594408-230c6680-a95d-11eb-9b16-ef7d118662eb.jpg" title="제목" />
 </p>
 
-### 3. 개발에 지친 당신을 위한 재미있는 짤방 제공
+### 3. 개발에 지친 당신을 위한 재미있는 짤방 제공 - [Giphy API](https://developers.giphy.com/)
 <p align="center">
 <img width="300px" src="https://user-images.githubusercontent.com/60457112/116594405-2273d000-a95d-11eb-918b-7c07280b76c6.jpg" title="제목" />
 </p>

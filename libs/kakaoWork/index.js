@@ -1,6 +1,6 @@
 /** @format */
 
-const Config = require("config");
+const Config = require("../../configs/app/development");
 const axios = require("axios");
 
 const kakaoInstance = axios.create({

@@ -51,6 +51,6 @@ router.use("/callback", (req, res, next) => {
 });
 
 // 모두에게 메세지 보내기
-router.use("/", main.sendMessage);
+router.get("/", main.sendMessageToAll);
 
 module.exports = router;

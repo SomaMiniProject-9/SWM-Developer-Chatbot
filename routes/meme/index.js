@@ -1,6 +1,6 @@
 /** @format */
 const axios = require('axios');
-const Config = require("config");
+const Config = require("../../configs/app/development");
 const libKakaoWork = require("../../libs/kakaoWork");
 
 const sendMessage = async (req, res, next) => {
